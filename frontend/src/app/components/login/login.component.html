@@ -1,0 +1,8 @@
+<div class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="bg-white p-8 rounded shadow-md w-96">
+        <h2 class="text-2xl font-semibold mb-4 text-center">Login</h2>
+        <div *ngIf="!user" class="flex justify-center">
+            <asl-google-signin-button type='standard' size='medium'></asl-google-signin-button>
+        </div>
+    </div>
+</div>
